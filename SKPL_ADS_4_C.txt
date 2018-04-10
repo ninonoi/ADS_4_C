@@ -1,0 +1,231 @@
+SKPL-04
+
+SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
+
+Artist.Co
+
+untuk:
+PAPPRI (Pengurus Persatuan Artist Penyanyi Pemusik Republik Indonesia)
+
+
+Dipersiapkan oleh:
+Grup 04
+150535600261 / Ninon Oktaviani Irawan
+150535601770 / Nur Hidayatullah
+150535604307 / Ruri Ayyul Maulidya
+
+
+Program Studi Teknik Informatika/Analisis dan Desain Sistem
+Teknik Elektro – Universitas Negeri Malang
+Jl. Semarang 5, Malang 65145
+
+Program Studi Teknik Informatika/ Analisis dan Desain Sistem
+Teknik Elektro – Universitas Negeri MalangNomorDokumenHalamanSKPL-04RevisiTgl: 10 April 2018
+
+
+DAFTAR PERUBAHAN
+
+RevisiDeskripsiA
+B
+C
+D
+E
+F
+G
+
+INDEX-ABCDEFGTGLDitulisolehDiperiksaolehDisetujuioleh
+
+
+Daftar Halaman Perubahan
+HalamanRevisiHalamanRevisi
+
+
+1. Pendahuluan
+
+1.1	Tujuan Penulisan Dokumen
+
+     Dokumen ini ditulis dalam rangka menjabarkan spesifikasi kebutuhan perangkat lunak yang akan digunakan oleh PAPPRI (Persatuan Pengurus Artis Penyanyi Pemusik Republik Indonesia). Penjabaran spesifikasi perangkat lunak meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan perangkat lunak. Perangkat lunak yang akan dibangun untuk PAPPRI (Persatuan Pengurus Artis Penyanyi Pemusik Republik Indonesia) bernama Artist.Co. Dalam rangka membangun perangkat lunak tersebut, tentunya spesifikasi kebutuhan untuk perangkat lunak tersebut dibutuhkan, khususnya oleh para pengembang dan pembangun perangkat lunak tersebut.
+
+1.2	Lingkup Masalah
+
+     Artist.Co adalah sebuah aplikasi e-commerce berbasis web sebagai perantara artis penyanyi dan pemusik di Indonesia dengan customer untuk melakukan transaksi jasa panggung artis. Pengguna sistem Artist.Co dapat melakukan pendaftaran, sign in, melihat katalog artis, memilih artis, melakukan komunikasi dengan artis tersebut, melakukan pemesanan dan melihat daftar jadwal artis. Sistem ini dikelola oleh seorang admin yang bertugas memperbaharui katalog, data pelanggan, dan data pemesanan. Data-data yang dikelola admin dipertanggungjawabkan kepada PAPPRI (Persatuan Pengurus Artis Penyanyi Pemusik Republik Indonesia) di mana seorang manajer dari PAPPRI (Persatuan Pengurus Artis Penyanyi Pemusik Republik Indonesia) akan memantau Artist.Co dan melakukan observasi serta meminta laporan pertanggungjawaban data artist.
+
+
+1.3	Definisi, Istilah dan Singkatan
+
+Berikut definisi, istilah serta singkatan yang digunakan dalam dokumen ini :
+
+Tabel 1 Definisi, istilah dan singkatan
+Definisi, IstilahPenjelasandan/atau SingkatanDFDData Flow Diagram. Diagram yang menggambarkan aliran data.ERDEntity Relationship Diagram. Diagram yang menggambarkan entitas suatuobjek beserta relasinya.InterfaceAntarmuka antara perangkat lunak dan penggunaData storeTempat penyimpanan dataAPIApplication Programming Interface
+1.4	Aturan Penomoran
+
+
+1.5	Referensi
+
+     Dokumen ini memiliki beberapa referensi dalam pembuatannya, yaitu sebagai berikut:
+
+
+1.6	 Deskripsi umum Dokumen (Ikhtisar)
+
+     Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan beberapa bagian besar, antara lain pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan.
+
+     Bagian pendahuluan berisi tujuan penulisan dokumen yang menjelaskan alasan dokumen ini dibuat, lingkup masalah yang berisi ringkasan deskripsi dari aplikasi yang akan dibuat, definisi, istilah dan singkatan yang digunakan dalam dokumen, aturan penomoran yang digunakan dalam dokumen ini, referensi yang dirujuk oleh dokumen dan ikhtisar dokumen ini.
+
+     Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari sistem yang dibuat, karakteristik pengguna sistem, batasan yang dipakai dalam perangkat lunak itu sendiri, dan lingkungan operasi yang diperuntukan bagi perangkat lunak yang dibuat.
+
+     Bagian deskripsi kebutuhan di dalam dokumen ini meliputi kebutuhan antarmuka eksternal, kebutuhan fungsional, kebutuhan non fungsional, kebutuhan data, batasan perancangan perangkat lunak, keruntunan, dan ringkasan dari kebutuhan perangkat lunak, baik itu kebutuhan fungsional maupun kebutuhan non fungsional. Kebutuhan antarmuka eksternal meliputi antarmuka pemakai, antarmuka perangkat keras, antarmuak perangkat lunak, dan antarmuka komunikasi. Kebutuhan fungsional dan kebutuhan non fungsional perangkat lunak diuraikan dengan lengkap di bagian ini dan ringkasan dari kebutuhan perangkat lunak yang dibuat disertakan dalam dokumen ini. Kebutuhan fungsional perangkat lunak digambarkan dalam bentuk Data Flow Diagram (DFD), di mana DFD yang dibuat meliputi diagram konteks, DFD level 1, dan DFD level 2. Data store dari DFD yang dibuat pun dijelaskan di dalam dokumen ini. Selain DFD, kebutuhan fungsional perangkat lunak digambarkan dalam spesifikasi proses. Kebutuhan data dari perangkat lunak digambarkan dalam Entity Relationship Diagram (E-R Diagram). Batasan perancangan dari perangkat lunak yang akan dibuat tentunya harus dijelaskan dalam dokumen ini agar pengembang perangkat lunak lebih mudah dalam melakukan pekerjaannya. Keruntunan dari perangkat lunak yang dibuat digambarkan dengan cara mapping kebutuhan fungsional dengan proses pada DFD dan mapping data store DFD dengan Entity-Relationship Diagram.
+
+
+2	Deskripsi Umum Perangkat Lunak
+2.1	Deskripsi Umum Sistem
+      Artist.Co merupakan aplikasi e-commerce berbasis web sebagai perantara artis penyanyi dan pemusik di Indonesia dengan customer untuk melakukan transaksi jasa panggung artis. Pengguna aplikasi dapat melakukan pendaftaran sebagai pemesan dan pengguna yang telah terdaftar dapat melakukan sign in ke dalam aplikasi. Pengguna yang telah melakukan sign in dapat melihat katalog yang berisikan artis dengan kategori penyanyi dan pemusik yang tergabung dalam PAPPRI (Persatuan Pengurus Artis Penyanyi Pemusik Republik Indonesia). Pada katalog sendiri terdapat informasi tentang nama artis, portofolio, event dan branding. Pada aplikasi tersedia fitur chatting di mana pemesan dapat memilih artis yang ingin dipesan dan berkomunikasi langsung mengenai jadwal pemesanan. Pengguna melakukan pembayaran setelah pihak pemesan dan artis telah melakukan kesepakatan, pembayaran dilakukan dengan menggunakan sistem e-banking di mana aplikasi menyediakan form pembayaran yang terhubung dengan bank. Apabila uang pembayaran sudah masuk ke bank, maka bank akan mengirimkan konfirmasi pembayaran ke aplikasi dan aplikasi akan mengirimkan konfirmasi pembayaran kepada pemesan dan artis melalui e-mail. Apabila artis telah memiliki jadwal yang padat, aplikasi dapat memberikan pemberitahuan bahwa artis sedang full kepada calon pemesan.
+     Sistem ini dikelola oleh seorang admin yang bertugas memperbaharui katalog, data pengguna, data artis dan data pemesanan. Data-data ini dipertanggungjawabkan kepada PAPPRI (Persatuan Pengurus Artis Penyanyi Pemusik Republik Indonesia) kepada manajer dari PAPPRI (Persatuan Pengurus Artis Penyanyi Pemusik Republik Indonesia) dalam bentuk laporan pertanggungjawaban. 
+
+https://drive.google.com/open?id=1SRjl0Nthmez394iijYDEPQ1wAVru3_Uy 
+Gambar 1. Hubungan sistem dengan dunia luar
+
+2.2	Karakteristik Pengguna
+Tabel Karakteristik pengguna
+Kategori PenggunaTugasHak Akses ke aplikasiGuestMelihat tampilan webMelakukan pendaftaranPemesanMemilih artis yang ingin dipesanSign in sebagai pemesanAdminMemperbaharui katalog,  dataSign ini sebagai admin, control panel server, basis data artis dan pemesananpelanggan, data artis dan data pemesananBankMengirimkan notifikasiTidak adapembayaran
+
+2.3 Batasan
+
+     Dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan. Batasan-batasan tersebut antara lain:
+1. Pemesanan artis hanya dapat dilakukan apabila pengguna yang sudah melakukan sign in.
+2. Aplikasi hanya menyediakan form pembayaran terhadap produk yang dipesan. Pembayaran produk dilakukan ke bank.
+3. Aplikasi hanya menyediakan fitur chatting untuk melakukan komunikasi tentang penganturan jadwal.
+4. Aplikasi menyediakan fitur kesepakatan antar pemesan dan artis.
+5. Aplikasi harus berfungsi pada platform Windows dan Linux.
+6.  
+7. 
+
+2.4	Lingkungan Operasi
+
+Aplikasi Client server ini akan berfungsi dengan spesifikasi :
+Server :
+Komputer dengan spesifikasi hardware minimal sebagai berikut :
+- Processor Intel Pentium 4 3 Ghz
+- Motherboard support internet connection 
+- 2 GB RAM
+- 500 GB Hard Disk Drive utama 
+- 500 GB Hard Disk Drive backup 
+- VGA Card 256 MB
+- NIC FastEthernet atau Gigabit Ethernet 
+- Mouse
+- Keyboard 
+- Monitor
+- Power Supply
+
+Komputer yang minimal telah terinstall software sebagai berikut :
+- Browser Google Chrome/Mozilla Firefox 
+- Apache HTTP Server 
+- Mail Server
+
+DBMS (Database Management System) minimal MySQL 5.0.20 ke atas Koneksi internet dengan bandwidth minimal 1 Mbps OS minimal Windows 2003 Server atau Ubuntu Server
+
+Client:
+Komputer dengan spesifikasi hardware minimal sebagai berikut :
+- Processor Intel Pentium 4 2 Ghz
+- Motherboard support internet connection
+- 2 GB RAM
+- 80 GB Hard Disk Drive 
+- VGA Card 64 MB
+- Mouse
+- Keyboard 
+- Monitor
+- Power Supply
+
+Komputer yang minimal telah terinstall software sebagai berikut :
+
+- Browser Google Chrome/Mozilla Firefox 
+Koneksi internet dengan bandwidth minimal 128 Kbps OS minimal Windows XP ke atas atau Ubuntu 7.04 ke atas
+
+
+
+3	Deskripsi Kebutuhan
+3.1	Kebutuhan Antarmuka Eksternal
+
+     Perangkat Lunak Artist.Co membutuhkan fasilitas-fasilitas antar muka eksternal sebagai berikut:
+
+3.1.1	Antarmuka pemakai
+
+     User interface yang digunakan untuk mengoperasikan Perangkat Lunak Artist.Co antara lain:
+- Tampilan awal web
+- Tampilan fitur Chatting 
+- Tampilan sign in
+- Tampilan pendaftaran
+- Tampilan katalog artist
+- Tampilan e-banking
+
+     
+     Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut.
+- Keyboard
+- Mouse 
+- Monitor
+
+3.1.2	Antarmuka Perangkat Keras
+
+     Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak antara lain:
+
+- NIC FastEthernet atau Gigabit Ethernet 
+- Kabel LAN UTP RJ-45
+- ASDL Modem
+- Kabel telepon (aerial type)
+
+3.1.3	Antarmuka Perangkat Lunak
+
+     Antarmuka perangkat lunak yang digunakan oleh perangkat lunak ini adalah sebagai berikut :
+
+- API E-Banking 
+
+3.1.4	Antarmuka Komunikasi
+
+     Antarmuka komunikasi yang digunakan untukmengoperasikanperangkat lunak antara lain:
+
+- Kabel LAN UTP RJ-45 
+- ASDL Modem
+- Kabel telepon (aerial type)
+
+
+3.2	Kebutuhan Fungsional
+  Sistem mampu melakukan:
+> User dapat memasukkan data artis meliputi nama artis, umur, jenis kelamin, dll
+> User mampu menampilkan data artis berdasarkan kategori tertentu (penyayi dan pemusik)
+> User mampu berkomunikasi secara langsung dengan manager artis (melalui sistem informasi website artis)
+> User mampu menampilkan jumlah artis sesuai kategori tertentu secara keseluruhan
+
+Pendataan User
+> User dapat memasukkan data diri meliputi nama user, umur, alamat user, nomor telepon, email, jenis kelamin, dll
+> User dapat menampilkan data diri pada sistem website artis
+> User dapat merubah data diri
+> User dapat menampilkan daftar artis yang telah di pesan
+> User dapat menampilkan daftar chat terakhir dengan manager artis
+
+Transaksi
+> Sistem dapat melakukan transaksi pemesanan artis
+> Sistem dapat mengetahui apakah artis tersebut telah terikat kontrak dengan user
+> Sistem dapat menampilkan list artis yang sering melakukan ikatan kontrak
+> Sistem dapat menampilkan waktu dan tanggal pemesanan secara otomatis
+
+  Kebutuhan Non- Fungsional
+Operasional:
+==> Menggunakan Sistem Operasi Windows 7
+==> Spesifikasi computer minimal Core
+==> Kebutuhan RAM 2 GB
+==> Kebutuhan Hardisk 10 GB
+
+Keamanan:
+==> Sistem aplikasi dan data dilengkapi password
+==> Sistem verifikasi user yang dilengkapi kode tertentu
+
+Informasi:
+==> Digunakan untuk menampilkan tatacara pendaftaran sistem informasi artis
+==> Digunakan untuk menampilkan informasi apabila user salah memasukkan password
+
+Kinerja:
+==> Interaksi pengguna tidak lebih dari 2 detik
+==> Interaksi chatting tidak melebihi 2 detik
+
+Culture dan Political:
+==> Sistem dapat membedakan data artis yang terdaftar pada PAPPRI (Pengurus Persatuan Artis Penyayi dan Pemusik Republik Indonesia)
+
