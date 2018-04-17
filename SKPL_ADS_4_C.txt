@@ -16,28 +16,74 @@ Grup 04
 
 
 Program Studi Teknik Informatika/Analisis dan Desain Sistem
-Teknik Elektro � Universitas Negeri Malang
+Teknik Elektro – Universitas Negeri Malang
 Jl. Semarang 5, Malang 65145
 
-Program Studi Teknik Informatika/ Analisis dan Desain Sistem
-Teknik Elektro � Universitas Negeri MalangNomorDokumenHalamanSKPL-04RevisiTgl: 10 April 2018
+
+Program Studi Teknik Informatika/ Analisis dan Desain Sistem
+Teknik Elektro – Universitas Negeri Malang
+NomorDokumen
+Halaman
+
+
+SKPL-04
+
+
+
+Revisi
+
+Tgl: 10 April 2018
+
 
 
 DAFTAR PERUBAHAN
 
-RevisiDeskripsiA
-B
-C
-D
-E
-F
-G
-
-INDEX-ABCDEFGTGLDitulisolehDiperiksaolehDisetujuioleh
+Revisi
+Deskripsi
+A
+Perbaikan pada Bab 2 (aturan penamaan dan referensi) dan Bab 3 ( menambahkan kebutuhan fungsional , data store, dan kebutuhan data)
+
+B
+
+
+C
+
+
+D
+
+
+E
+
+
+F
+
+
+G
+
+
+
+INDEX
+-
+A 17/04/2018
+B
+C
+D
+E
+F
+G
+
+
 
 
 Daftar Halaman Perubahan
-HalamanRevisiHalamanRevisi
+Halaman
+line 120-150
+line 270-...
+Revisi
+A
+Halaman
+Revisi
+
 
 
 1. Pendahuluan
@@ -56,13 +102,48 @@ HalamanRevisiHalamanRevisi
 Berikut definisi, istilah serta singkatan yang digunakan dalam dokumen ini :
 
 Tabel 1 Definisi, istilah dan singkatan
-Definisi, IstilahPenjelasandan/atau SingkatanDFDData Flow Diagram. Diagram yang menggambarkan aliran data.ERDEntity Relationship Diagram. Diagram yang menggambarkan entitas suatuobjek beserta relasinya.InterfaceAntarmuka antara perangkat lunak dan penggunaData storeTempat penyimpanan dataAPIApplication Programming Interface
+Definisi, Istilah Penjelasan dan/atau Singkatan
+
+DFD
+Data Flow Diagram. Diagram yang menggambarkan aliran data.
+
+ERD
+Entity Relationship Diagram. Diagram yang menggambarkan entitas suatu objek beserta relasinya.
+
+Interface
+Antarmuka antara perangkat lunak dan pengguna
+
+Data store
+Tempat penyimpanan data
+
+API
+Application Programming Interface
+
 1.4	Aturan Penomoran
+     Dalam dokumen ini, terdapat beberapa aturan penomoran yang dipakai. Untuk daftar penamaan perangkat lunak dijelaskan pada tabel dibawah ini:
+
+Tabel Aturan Penomoran
+Nama-ID                       Aturan Penamaan          Deskripsi
+Kebutuhan Fungsional          SRS-F-IN/PR-OUT-xxx      SRS adalah System Requirement Summary,  
+                                                       F adalah Fungsional  
+                                                       IN menunjukkan operasi Input 
+                                                       PR menunjukkan operasi Proses 
+                                                       OUT menunjukkan output 
+                                                       xxx adalah nomor SRS-Id.
+Kebutuhan Non-Fungsional      SRS-NF-IN/PR-OUT-xxx     SRS adalah System Requirement Summary 
+                                                       NF adalah non-Fungsional 
+                                                       IN menunjukkan operasi Input 
+                                                       PR menunjukkan operasi Proses 
+                                                       OUT menunjukkan operasi Output 
+                                                       xxx adalah nomor SRS-Id.
 
 
 1.5	Referensi
-
      Dokumen ini memiliki beberapa referensi dalam pembuatannya, yaitu sebagai berikut:
+
+•	S. A. B. A. Nurliayana Binti Roslan, Siti Aisyah Binti Zainal Abidin, Siti Nur Izzaty Binti Norizan, “Software Requirement Specification Document of a Online Food Store 1,” Durresamin J., vol. 1, no. 1, pp. 1–14, 2015.
+
+•	S. Geagea et al., Software Requirements Specification Amazing Lunch Indicator. 2010.
 
 
 1.6	 Deskripsi umum Dokumen (Ikhtisar)
@@ -81,12 +162,24 @@ Definisi, IstilahPenjelasandan/atau SingkatanDFDData Flow Diagram. Diag
       Artist.Co merupakan aplikasi e-commerce berbasis web sebagai perantara artis penyanyi dan pemusik di Indonesia dengan customer untuk melakukan transaksi jasa panggung artis. Pengguna aplikasi dapat melakukan pendaftaran sebagai pemesan dan pengguna yang telah terdaftar dapat melakukan sign in ke dalam aplikasi. Pengguna yang telah melakukan sign in dapat melihat katalog yang berisikan artis dengan kategori penyanyi dan pemusik yang tergabung dalam PAPPRI (Persatuan Pengurus Artis Penyanyi Pemusik Republik Indonesia). Pada katalog sendiri terdapat informasi tentang nama artis, portofolio, event dan branding. Pada aplikasi tersedia fitur chatting di mana pemesan dapat memilih artis yang ingin dipesan dan berkomunikasi langsung mengenai jadwal pemesanan. Pengguna melakukan pembayaran setelah pihak pemesan dan artis telah melakukan kesepakatan, pembayaran dilakukan dengan menggunakan sistem e-banking di mana aplikasi menyediakan form pembayaran yang terhubung dengan bank. Apabila uang pembayaran sudah masuk ke bank, maka bank akan mengirimkan konfirmasi pembayaran ke aplikasi dan aplikasi akan mengirimkan konfirmasi pembayaran kepada pemesan dan artis melalui e-mail. Apabila artis telah memiliki jadwal yang padat, aplikasi dapat memberikan pemberitahuan bahwa artis sedang full kepada calon pemesan.
      Sistem ini dikelola oleh seorang admin yang bertugas memperbaharui katalog, data pengguna, data artis dan data pemesanan. Data-data ini dipertanggungjawabkan kepada PAPPRI (Persatuan Pengurus Artis Penyanyi Pemusik Republik Indonesia) kepada manajer dari PAPPRI (Persatuan Pengurus Artis Penyanyi Pemusik Republik Indonesia) dalam bentuk laporan pertanggungjawaban. 
 
-https://drive.google.com/open?id=1SRjl0Nthmez394iijYDEPQ1wAVru3_Uy 
+https://drive.google.com/open?id=1SRjl0Nthmez394iijYDEPQ1wAVru3_Uy  
 Gambar 1. Hubungan sistem dengan dunia luar
 
 2.2	Karakteristik Pengguna
 Tabel Karakteristik pengguna
-Kategori PenggunaTugasHak Akses ke aplikasiGuestMelihat tampilan webMelakukan pendaftaranPemesanMemilih artis yang ingin dipesanSign in sebagai pemesanAdminMemperbaharui katalog,  dataSign ini sebagai admin, control panel server, basis data artis dan pemesananpelanggan, data artis dan data pemesananBankMengirimkan notifikasiTidak adapembayaran
+Kategori Pengguna             Tugas                              Hak Akses ke aplikasi
+
+Guest                         Melihat tampilan web               Melakukan pendaftaran
+
+Pemesan                       Memilih artis yang ingin dipesan   Sign in sebagai pemesan
+
+Admin                         Memperbaharui katalog,data         Sign ini sebagai admin, 
+                              pelanggan, data artis dan          control panel server,
+                              data pemesanan                     basis data artis dan pemesanan
+                                   
+Bank                          Mengirimkan notifikasi             Tidak ada
+                              pembayaran
+
 
 2.3 Batasan
 
@@ -96,8 +189,7 @@ Kategori PenggunaTugasHak Akses ke aplikasiGuestMelihat tampilan webMelakuk
 3. Aplikasi hanya menyediakan fitur chatting untuk melakukan komunikasi tentang penganturan jadwal.
 4. Aplikasi menyediakan fitur kesepakatan antar pemesan dan artis.
 5. Aplikasi harus berfungsi pada platform Windows dan Linux.
-6.  
-7. 
+6. Aplikasi menyediakan fitur branding atau iklan untuk artis. 
 
 2.4	Lingkungan Operasi
 
@@ -188,6 +280,9 @@ Koneksi internet dengan bandwidth minimal 128 Kbps OS minimal Windows XP ke atas
 
 
 3.2	Kebutuhan Fungsional
+Dalam bentuk tabel dapat diakses melalui google drive:
+https://drive.google.com/open?id=15M9ec2C0f63F79t7BALnsELUVSd91Pk3
+
   Sistem mampu melakukan:
 > User dapat memasukkan data artis meliputi nama artis, umur, jenis kelamin, dll
 > User mampu menampilkan data artis berdasarkan kategori tertentu (penyayi dan pemusik)
@@ -207,7 +302,32 @@ Transaksi
 > Sistem dapat menampilkan list artis yang sering melakukan ikatan kontrak
 > Sistem dapat menampilkan waktu dan tanggal pemesanan secara otomatis
 
-  Kebutuhan Non- Fungsional
+3.2.1	Diagram Konteks
+
+3.2.2	DFD Level 1 
+
+3.2.3	Spesifikasi Proses (P-SPEC) 
+
+3.2.4	Data Store
+Tabel Data Store
+
+Data Store	          Deskripsi
+Data_pemesan	          Berisi deskripsi pemesan yang telah melakukan registrasi. Seperti nama, no.handphone, email serta alamat                                pemesan
+
+Data_Artis	          Berisi deskripsi artis yang telah melakukan registrasi. Seperti nama, no.handphone, email serta alamat artis.
+
+Data_Portofolio_Artis	Berisi deskripsi artis yang telah memiliki account dapat mengisi portofolio artis tersebut. Seperti dalam                                bentuk video atau portofolio biasa.
+
+Data_Pemesanan	          Ketika user/pemesan selesai melakukan pencarian, melakukan pemesanan kepada artis dan memiliki kesepakatan,                              maka data pemesanan tersebut akan tersimpan pada data store ini. Data_pemesanan akan digunakan oleh bank untuk                          melakukan validasi proses pembayaran
+
+Data_Katalog_Artis	     Berisi data yang mengelola data katalog artis. Menyimpan gambar dari artis, kategori artis, nama artis dll.
+
+
+3.3	Kebutuhan Data
+
+3.4	Kebutuhan Non-Fungsional
+
+Kebutuhan Non- Fungsional
 Operasional:
 ==> Menggunakan Sistem Operasi Windows 7
 ==> Spesifikasi computer minimal Core
@@ -228,4 +348,14 @@ Kinerja:
 
 Culture dan Political:
 ==> Sistem dapat membedakan data artis yang terdaftar pada PAPPRI (Pengurus Persatuan Artis Penyayi dan Pemusik Republik Indonesia)
+
+3.5	Batasan Perancangan
+Batasan perancangan yang dipakai dalam pengembangan perangkat lunak Artis.Co antara lain.
+-	Tampilan web dibuat dengan menggunakan photoshop dan corel draw
+-	Text editor yang digunakan adalah sublime text dan/atau notepad++
+-	Bahasa pemrograman yang digunakan adalah php dan html 
+
+3.6	Keurunutan (traceability)
+3.7	Ringkasan Kebutuhan
+
 
