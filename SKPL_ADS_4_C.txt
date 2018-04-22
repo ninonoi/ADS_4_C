@@ -281,7 +281,7 @@ Koneksi internet dengan bandwidth minimal 128 Kbps OS minimal Windows XP ke atas
 
 3.2	Kebutuhan Fungsional
 Dalam bentuk tabel dapat diakses melalui google drive:
-https://drive.google.com/open?id=15M9ec2C0f63F79t7BALnsELUVSd91Pk3
+-->> https://drive.google.com/open?id=15M9ec2C0f63F79t7BALnsELUVSd91Pk3
 
   Sistem mampu melakukan:
 > User dapat memasukkan data artis meliputi nama artis, umur, jenis kelamin, dll
@@ -306,6 +306,14 @@ Transaksi
 
 3.2.2	DFD Level 1 
 
+3.2.2.1   DFD Level 2
+
+3.2.2.2   DFD Level 2
+
+3.2.2.3   DFD Level 2
+
+3.2.2.4   DFD Level 2
+
 3.2.3	Spesifikasi Proses (P-SPEC) 
 
 3.2.4	Data Store
@@ -326,6 +334,25 @@ Data_Katalog_Artis	     Berisi data yang mengelola data katalog artis. Menyimpan
 3.3	Kebutuhan Data
 
 3.4	Kebutuhan Non-Fungsional
+Kebutuhan non fungsional yang terdapat pada perangkat lunak Artist.Co antara lain.
+Tabel Kebutuhan Non-Fungsional
+
+ID	               Parameter	               Kebutuhan
+SRS-NF-PR-028	     Portability	          Perangkat Lunak dapat dipakai pada platform Windows 
+SRS-NF-PR-029	     Portability	          Perangkat Lunak dapat digunakan pada spesifikasi computer minimal Core
+SRS-NF-PR-030	     Memory	               Perangkat Lunak hanya dapat digunakan pada computer dengan RAM minimal 2GB, serta Hardisk                                                minimal 10GB
+SRS-NF-PR-031	     Response Time	          Perangkat Lunak mampu mengirimkan notifikasi e-mail kepada pengguna maksimal dalam waktu 30                                              detik
+SRS-NF-PR-032	     Response Time	          Perangkat Lunak mampu melakukan update data dalam waktu 10 detik
+SRS-NF-PR-033	     Response Time	          Perangkat Lunak mampu melakukan interaksi dengan pengguna tidak lebih dari 3 detik
+SRS-NF-PR-034	     Response Time	          Perangkat Lunak mampu melakukan interaksi chatting antar pemesan dan artis tidak lebih dari                                              3 detik
+SRS-NF-OUT-035	     Availability	          Perangkat Lunak harus terus dapat beroperasi 7 hari perminggu, 24 jam per hari tanpa gagal
+SRS-NF-OUT-035	     Reliability	          Kegagalan dalam proses transaksi memiliki toleransi satu kali gagal dalam 10 hari
+SRS-NF-OUT-036	     Ergonomy	               Tampilan antarmuka web Artist.Co mudah dipahami user dan estetikanya bagus
+SRS-NF-PR-037	     Security	               Perangkat Lunak memiliki data yang dilengkapi keamanan password. Serta perangkat lunak                                                  memiliki sistem verifikasi pengguna yang dilengkapi kode tertentu.
+SRS-NF-PR-038	     Security	               Perangkat lunak menggunakan standar enkripsi HTTPS
+SRS-NF-OUT-039	     Bahasa Komunikasi	     Semua tanya jawab ataupun tulisan dalam antarmuka disediakan dalam bahasa Indonesia dan                                                  bahasa Inggris
+SRS-NF-IN-040	     Culture dan Political	Perangkat Lunak dapat membedakan data artis yang terdaftar pada PAPPRI (Pengurus Persatuan                                              Artis Penyayi dan Pemusik Republik Indonesia)
+
 
 Kebutuhan Non- Fungsional
 Operasional:
