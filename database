@@ -1,55 +1,35 @@
-customer:
-data_customer:
-          id
-          nama
-          tanggallahir
-          jeniskelamin
+user:
+memasukkan_data_diri:
+          nama_user(primary)
+          umur
           alamat
-http://localhost/phpmyadmin/index.php?db=customer&token=ea8cd1514d9b07f83ed3c208d83c69c7&phpMyAdmin=vrm5si1bkd0f92m53dirat56q3tpltb0
+          nomor_telepon
+          email
+          jenis_kelamin
+=>
 
-memesan_artis:
-          id
-          nama
-          tanggal_memesan
-          bulan_memesan
-http://localhost/phpmyadmin/index.php?db=customer&token=ea8cd1514d9b07f83ed3c208d83c69c7&phpMyAdmin=vrm5si1bkd0f92m53dirat56q3tpltb0
-
-riwayat_pemesanan:
-          id
-          nama
-          riwayat
-http://localhost/phpmyadmin/index.php?db=customer&token=ea8cd1514d9b07f83ed3c208d83c69c7&phpMyAdmin=vrm5si1bkd0f92m53dirat56q3tpltb0
-
-manajer artis:
-data_artis:
-          id
-          nama_artis
-          tanggal_lahir
-http://localhost/phpmyadmin/index.php?db=manajerartis&token=b5f345ab87823e9b1ca623dfc15f712f
-
-pemesanan_artis:
-          id
-          nama_pemesanan
-          tanggal_pemesanan
-http://localhost/phpmyadmin/index.php?db=manajerartis&token=b5f345ab87823e9b1ca623dfc15f712f
-
-admin:
-data_artis:
-          id
-          nama_artis
-          tanggal_lahir
-http://localhost/phpmyadmin/index.php?db=admin&token=b5f345ab87823e9b1ca623dfc15f712f
-
-memesan_artis:
-          id
-          nama
-          tanggal_memesan
-          bulan_memesan
-http://localhost/phpmyadmin/index.php?db=admin&token=b5f345ab87823e9b1ca623dfc15f712f
-
-riwayat_pemesanan:
-          id
-          nama
-          riwayat
- http://localhost/phpmyadmin/index.php?db=admin&token=b5f345ab87823e9b1ca623dfc15f712f
+merubah_data_diri:
+          nama_user(primary)
+          umur
+          alamat
+          nomor_telepon
+          email
+          jenis_kelamin
           
+=>
+
+menampilkan_daftar_artis:
+          riwayat_pemesanan
+menampilkan_daftar_chat:
+          chat_dengan_manajerartis
+          
+sistem:
+memasukkan_data_artis:
+          nama_artis(primary)
+          umur
+          jenis_kelamin
+menampilkan_kategori_data_artis:
+          penyanyi
+          pemusik
+
+
