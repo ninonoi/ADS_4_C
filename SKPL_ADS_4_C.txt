@@ -44,7 +44,7 @@ A
 Perbaikan pada Bab 2 (aturan penamaan dan referensi) dan Bab 3 ( menambahkan kebutuhan fungsional , data store, dan kebutuhan data)
 
 B
-
+Penambahan Kebutuhan Non-Fungsional dan DFD0/DFD1/DFD2
 
 C
 
@@ -303,18 +303,42 @@ Transaksi
 > Sistem dapat menampilkan waktu dan tanggal pemesanan secara otomatis
 
 3.2.1	Diagram Konteks
-
+==> https://drive.google.com/open?id=1NUiQmniipno8W9InfRmFmNqk1ck0BFov
+          Gambar 2. Diagram konteks SI Transaksi Artist.Co
+          
 3.2.2	DFD Level 1 
+==> https://drive.google.com/open?id=1s8Lm-Cdm1IfpX6kf-vjYJ7F5pKElHYpG
+          Gambar 3. Diagram level 1 SI Transaksi Artist.Co
+          
+3.2.2.1   DFD Level 2 <Proses Pendaftaran Pemesan>
+==> https://drive.google.com/open?id=1P8Ro50L_jDdlwOWEJjd5rF0VyQUx9LW9
+          Gambar 4. Diagram level 2 Proses Pendaftaran Pemesan
 
-3.2.2.1   DFD Level 2
+3.2.2.2   DFD Level 2 <Proses Pendaftaran Artis>
+==> https://drive.google.com/open?id=1dpDFsjcZJB98ucjeA0_2nJP_yIEplf2v
+          Gambar 5. Diagram level 2 Proses Pendaftaran Artis
+          
+3.2.2.3   DFD Level 2 <Proses Proses Lihat dan Update Katalog>
+==> https://drive.google.com/open?id=1FdiT4BFCtd-5ZCkNirj7K526LyIE21Si
+          Gambar 6. Diagram level 2 Proses Lihat dan Update Katalog
+          
+3.2.2.4   DFD Level 2 <Proses Pemesanan>
+==> https://drive.google.com/open?id=1Kz3GahP4bDwoEf29Hj3JYE0A32zePTG8
+          Gambar 7. Diagram level 2 Proses Pemesanan
+          
+3.2.2.5   DFD Level 2 <Proses Pembayaran>
+==> https://drive.google.com/open?id=1bIJWfCE7KU8rhauhb1CIeyciA5CkrnsJ
+          Gambar 8. Diagram level 2 Proses Pembayaran
 
-3.2.2.2   DFD Level 2
-
-3.2.2.3   DFD Level 2
-
-3.2.2.4   DFD Level 2
-
+3.2.2.6   DFD Level 2 <Proses Generate Laporan>
+==> https://drive.google.com/open?id=1Ss_IHPkTzcz9Eq8rpL-qqtzgP_Fhrowq
+          Gambar 9. Diagram level 2 Proses Generate Laporan
+          
 3.2.3	Spesifikasi Proses (P-SPEC) 
+Tabel 5 Spesifikasi Proses 
+Kode buble          Deskripsi      
+DFD-0-1             Proses ini merupakan gambaran sistem Artist.Co secara keseluruhan. Melibatkan terminator serta data flow yang                           keluar-masuk kedalam sistem. Buble 0 akan dideskripsikan pada DFD level selanjutnya agar bisa memberikan gambaran                       secara lebih rinci dan spesifik.
+
 
 3.2.4	Data Store
 Tabel Data Store
