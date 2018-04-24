@@ -337,7 +337,7 @@ Transaksi
 3.2.3	Spesifikasi Proses (P-SPEC) 
 Tabel 5 Spesifikasi Proses 
 Kode buble          Deskripsi      
-DFD-0-1             Proses ini merupakan gambaran sistem Artist.Co secara keseluruhan. Melibatkan terminator serta data flow yang                           keluar-masuk kedalam sistem. Buble 0 akan dideskripsikan pada DFD level selanjutnya agar bisa memberikan gambaran                       secara lebih rinci dan spesifik.
+DFD-0-1             Proses ini merupakan gambaran sistem Artist.Co secara keseluruhan. Melibatkan terminator serta data flow yang keluar-masuk kedalam sistem. Buble 0 akan dideskripsikan pada DFD level selanjutnya agar bisa memberikan gambaran secara lebih rinci dan spesifik.
 
 
 3.2.4	Data Store
@@ -356,6 +356,7 @@ Data_Katalog_Artis	     Berisi data yang mengelola data katalog artis. Menyimpan
 
 
 3.3	Kebutuhan Data
+==> 
 
 3.4	Kebutuhan Non-Fungsional
 Kebutuhan non fungsional yang terdapat pada perangkat lunak Artist.Co antara lain.
@@ -407,6 +408,63 @@ Batasan perancangan yang dipakai dalam pengembangan perangkat lunak Artis.Co ant
 -	Bahasa pemrograman yang digunakan adalah php dan html 
 
 3.6	Keurunutan (traceability)
+     Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang dapat dirunut model analisisnya. Berikut ini adalah tabel yang berisi traceability dari hasil analisis kebutuhan perangkat lunak yang dibangun.
+     
 3.7	Ringkasan Kebutuhan
+     Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional. Berikut ini ringkasan semua kebutuhan perangkat lunak Artist.Co. 
+     
+Tabel Kebutuhan Fungsional
+ID 	          Kebutuhan
+SRS-F-OUT-001	Perangkat lunak dapat menampilkan form sign in 
+SRS-F-OUT-002	Perangkat lunak dapat menampilkan form sign up untuk pemesan
+SRS-F-OUT-003	Perangkat lunak dapat menampilkan form sign up untuk artis
+SRS-F-IN-004	Perangkat lunak dapat menerima data pengguna/ pemesan berupa data pemesan
+SRS-F-IN-005	Perangkat lunak dapat menerima data artis berupa data artis
+SRS-F-PR-006	Perangkat lunak dapat memeriksa keakuratan data artis berupa autentifikasi data artis dengan PAPPRI (Persatuan Pengurus Artis Penyanyi dan Pemusik Republik Indonesia)
+
+SRS-F-PR-007	Perangkat lunak dapat menyimpan data pemesan
+SRS-F-PR-008	Perangkat lunak dapat menyimpan data artis (penyanyi dan pemusik) yang tergabung dalam PAPPRI
+SRS-F-IN-009	Perangkat lunak dapat menerima masukan username dan password
+SRS-F-OUT-010	Perangkat lunak dapat menampilkan katalog artis
+SRS-F-OUT-011	Perangkat lunak dapat menampilkan profil atau portofolio artis sesuai masukkan pilihan dari pemesan
+SRS-F-OUT-012	Perangkat lunak dapat menampilkan portofolio artis dalam bentuk video 
+SRS-F-PR-013	Perangkat lunak dapat menyediakan mode pencarian terhadap artis yang sesuai dengan input pemesan
+SRS-F-OUT-014	Perangkat lunak dapat menampilkan katalog artis dengan filter kategori (top, jenis kelamin, dan jadwal) 
+SRS-F-OUT-015	Perangkat lunak dapat menampilkan katalog artis dengan kategori penyanyi dan pemusik
+SRS-F-IN-016	Perangkat lunak dapat menerima masukkan berupa artis yang telah dipilih pemesan
+SRS-F-OUT-017	Perangkat lunak dapat menampilkan pesan permintaan kepada artis berupa data pemesan dan acara atau tujuan pemesanan.
+SRS-F-PR-018	Perangkat lunak dapat menyediakan fitur chatting antara pemesan dan artis
+SRS-F-OUT-019	Perangkat lunak dapat menampilkan laman chatting
+SRS-F-PR-020	Perangkat lunak dapat menyediakan fitur kesepakatan (form kesepakatan) pemesanan (terdapat jadwal dan harga)
+SRS-F-IN-021	Perangkat lunak dapat menerima masukkan berupa artis yang telah sepakat dipesan (data pemesanan)
+SRS-F-PR-022	Perangkat lunak dapat menyimpan data artis yang telah sepakat dipesan (data pemesanan)
+SRS-F-OUT-023	Perangkat lunak dapat menampilkan form pembayaran
+SRS-F-PR-024	Perangkat lunak dapat mengirimkan notifikasi pembayaran kepada pembeli
+SRS-F-OUT-025	Perangkat lunak dapat menampilkan informasi pemesanan dalam kurun waktu tertentu (harian, mingguan, dan/atau bulanan) dalam bentuk tabel
+
+SRS-F-OUT-026	Perangkat lunak dapat menampilkan informasi pemesanan dalam kurun waktu tertentu (harian, mingguan, dan/atau bulanan) dalam bentuk grafik
+
+SRS-F-PR-027	Perangkat lunak dapat meng-generate laporan pertanggungjawaban
+
+
+
+
+Tabel Kebutuhan Non-Fungsional
+ID	          Kebutuhan
+SRS-NF-PR-028	Perangkat Lunak dapat dipakai pada platform Windows 
+SRS-NF-PR-029	Perangkat Lunak dapat digunakan pada spesifikasi computer minimal Core
+SRS-NF-PR-030	Perangkat Lunak hanya dapat digunakan pada computer dengan RAM minimal 2GB, serta Hardisk minimal 10GB
+SRS-NF-PR-031	Perangkat Lunak mampu mengirimkan notifikasi e-mail kepada pengguna maksimal dalam waktu 30 detik
+SRS-NF-PR-032	Perangkat Lunak mampu melakukan update data dalam waktu 10 detik
+SRS-NF-PR-033	Perangkat Lunak mampu melakukan interaksi dengan pengguna tidak lebih dari 3 detik
+SRS-NF-PR-034	Perangkat Lunak mampu melakukan interaksi chatting antar pemesan dan artis tidak lebih dari 3 detik
+SRS-NF-OUT-035	Perangkat Lunak harus terus dapat beroperasi 7 hari perminggu, 24 jam per hari tanpa gagal
+SRS-NF-OUT-035	Kegagalan dalam proses transaksi memiliki toleransi satu kali gagal dalam 10 hari
+SRS-NF-OUT-036	Tampilan antarmuka web Artist.Co mudah dipahami user dan estetikanya bagus
+SRS-NF-PR-037	Perangkat Lunak memiliki data yang dilengkapi keamanan password. Serta perangkat lunak memiliki sistem verifikasi pengguna yang dilengkapi kode tertentu.
+
+SRS-NF-PR-038	Perangkat lunak menggunakan standar enkripsi HTTPS
+SRS-NF-OUT-039	Semua tanya jawab ataupun tulisan dalam antarmuka disediakan dalam bahasa Indonesia dan bahasa Inggris
+SRS-NF-IN-040	Perangkat Lunak dapat membedakan data artis yang terdaftar pada PAPPRI (Pengurus Persatuan Artis Penyayi dan Pemusik Republik Indonesia)
 
 
