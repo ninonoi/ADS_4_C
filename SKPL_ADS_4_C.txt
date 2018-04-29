@@ -356,7 +356,7 @@ Data_Katalog_Artis	     Berisi data yang mengelola data katalog artis. Menyimpan
 
 
 3.3	Kebutuhan Data
-==> 
+==> https://drive.google.com/open?id=1BbmIHBaDz2erx7IblpiIfEb9thblDU0r
 
 3.4	Kebutuhan Non-Fungsional
 Kebutuhan non fungsional yang terdapat pada perangkat lunak Artist.Co antara lain.
