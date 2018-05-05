@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/Brands.css">
     <link rel="stylesheet" href="assets/css/Header-Blue.css">
     <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
@@ -36,22 +37,22 @@
 <body style="background-color:#d5e0f1;">
     <div>
         <div class="header-blue" style="font-family:'Allerta Stencil', sans-serif;">
-            <nav class="navbar navbar-dark navbar-expand fixed-top navigation-clean-search" data-aos="zoom-in" data-aos-duration="400" data-aos-once="true" style="background-size:cover;background-repeat:no-repeat;background-color:rgb(29,109,147);height:70px;">
-                <div class="container-fluid"><a class="navbar-brand" href="#" style="font-family:Amita, cursive;font-size:40px;">Artist.co</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <nav class="navbar navbar-dark navbar-expand fixed-top navigation-clean-search" style="background-size:cover;background-repeat:no-repeat;background-color:rgb(29,109,147);height:70px;">
+                <div class="container"><a class="navbar-brand" href="index.html" data-aos="fade-left" data-aos-duration="500" style="font-family:Amita, cursive;font-size:40px;">Artist.co</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                     <div
                         class="collapse navbar-collapse" data-aos="fade-down" data-aos-duration="400" data-aos-offset="30px" data-aos-once="true" id="navcol-1">
                         <ul class="nav navbar-nav">
                             <li class="nav-item" role="presentation"><a class="nav-link active" href="#">ABOUT</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link active" href="#" style="font-family:'Allerta Stencil', sans-serif;">BRAND</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#">EVENT</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="Event.html">EVENT</a></li>
                             <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" data-aos="fade">ARTIST</a>
-                                <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">MALE</a>
-                                    <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="#">FEMALE</a></div>
+                                <div class="dropdown-menu visible" role="menu"><a class="dropdown-item disabled" role="presentation" href="male.html">MALE</a>
+                                    <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item disabled" role="presentation" href="female.html">FEMALE</a></div>
                             </li>
                         </ul>
                         <form class="form-inline mr-auto" target="_self">
                             <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" name="search" id="search-field"></div>
-                        </form><a class="btn btn-light action-button" role="button" href="#">Sign In</a>
+                        </form><a class="btn btn-light action-button" role="button" href="signin.html" data-aos="fade-up" data-aos-duration="500">Sign In</a>
                         <ul class="nav navbar-nav">
                             <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Pemesanan</a></li>
                         </ul>
@@ -61,14 +62,14 @@
         <div class="container hero">
             <div class="row">
                 <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
-                    <h1>Get your Best Artist for a Great Show!</h1>
-                    <p>Management Artist Website Official</p><button class="btn btn-light btn-lg action-button" type="button" style="background-size:auto;">MALE</button><button class="btn btn-light btn-lg action-button" type="button" style="background-size:auto;margin-left:10px;">FEMALE</button></div>
-                <div
-                    class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder" style="height:300px;width:300px;margin-left:0px;padding-right:200px;">
-                    <div class="iphone-mockup"><img src="assets/img/heading.png" class="device" style="width:600px;height:500;"></div>
+                    <h1 data-bs-hover-animate="wobble">Get your Best Artist for a Great Show!</h1>
+                    <p data-bs-hover-animate="bounce">Management Artist Website Official</p><a class="btn btn-light btn-lg action-button" role="button" href="male.html" data-bs-hover-animate="pulse" style="background-size:auto;">MALE</a><a class="btn btn-light btn-lg action-button" role="button"
+                        href="female.html" data-bs-hover-animate="pulse" style="background-size:auto;margin-left:10px;">FEMALE</a></div>
+                <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder" style="height:300px;width:300px;margin-left:0px;padding-right:200px;">
+                    <div class="iphone-mockup"><img src="assets/img/heading.png" data-bs-hover-animate="tada" class="device" style="width:600px;height:500;"></div>
+                </div>
             </div>
         </div>
-    </div>
     </div>
     </div>
     <div class="simple-slider">
