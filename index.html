@@ -7,6 +7,7 @@
     <title>web-artist</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
@@ -21,10 +22,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery-1.css">
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
     <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
     <link rel="stylesheet" href="assets/css/Map-Clean.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
     <link rel="stylesheet" href="assets/css/News-Cards.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/Testimonials.css">
@@ -33,14 +36,14 @@
 <body style="background-color:#d5e0f1;">
     <div>
         <div class="header-blue" style="font-family:'Allerta Stencil', sans-serif;">
-            <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search" style="background-size:contain;background-repeat:repeat;">
-                <div class="container"><a class="navbar-brand" href="#" style="font-family:Amita, cursive;font-size:40px;">Artist.co</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <nav class="navbar navbar-dark navbar-expand fixed-top navigation-clean-search" data-aos="zoom-in" data-aos-duration="400" data-aos-once="true" style="background-size:cover;background-repeat:no-repeat;background-color:rgb(29,109,147);height:70px;">
+                <div class="container-fluid"><a class="navbar-brand" href="#" style="font-family:Amita, cursive;font-size:40px;">Artist.co</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                     <div
                         class="collapse navbar-collapse" data-aos="fade-down" data-aos-duration="400" data-aos-offset="30px" data-aos-once="true" id="navcol-1">
                         <ul class="nav navbar-nav">
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">ABOUT</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-family:'Allerta Stencil', sans-serif;">BRAND</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">EVENT</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#">ABOUT</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#" style="font-family:'Allerta Stencil', sans-serif;">BRAND</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#">EVENT</a></li>
                             <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" data-aos="fade">ARTIST</a>
                                 <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">MALE</a>
                                     <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="#">FEMALE</a></div>
@@ -59,13 +62,13 @@
             <div class="row">
                 <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
                     <h1>Get your Best Artist for a Great Show!</h1>
-                    <p>Management Artist Website Official</p><button class="btn btn-light btn-lg action-button" type="button">MALE</button><button class="btn btn-light btn-lg action-button" type="button">FEMALE</button></div>
-                <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder"
-                    style="height:300px;width:300px;margin-left:0px;padding-right:200px;">
+                    <p>Management Artist Website Official</p><button class="btn btn-light btn-lg action-button" type="button" style="background-size:auto;">MALE</button><button class="btn btn-light btn-lg action-button" type="button" style="background-size:auto;margin-left:10px;">FEMALE</button></div>
+                <div
+                    class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder" style="height:300px;width:300px;margin-left:0px;padding-right:200px;">
                     <div class="iphone-mockup"><img src="assets/img/heading.png" class="device" style="width:600px;height:500;"></div>
-                </div>
             </div>
         </div>
+    </div>
     </div>
     </div>
     <div class="simple-slider">
@@ -81,6 +84,162 @@
         </div>
     </div>
     <div></div>
+    <div class="photo-gallery">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Lightbox Gallery</h2>
+                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+            </div>
+            <div class="row photos">
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/desk.jpg" data-lightbox="photos"><figure class="snip1527">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample23.jpg" alt="pr-sample23" /></div>
+  <figcaption>
+    <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+    <h3>The World Ended Yesterday</h3>
+    <p>
+
+      You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="snip1527 hover">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample24.jpg" alt="pr-sample24" /></div>
+  <figcaption>
+    <div class="date"><span class="day">17</span><span class="month">Nov</span></div>
+    <h3>An Abstract Post Heading</h3>
+    <p>
+
+      Sometimes the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="snip1527">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample25.jpg" alt="pr-sample25" /></div>
+  <figcaption>
+    <div class="date"><span class="day">01</span><span class="month">Dec</span></div>
+    <h3>Down with this sort of thing</h3>
+    <p>
+
+      I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/building.jpg" data-lightbox="photos"></a><figure class="snip1527">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample23.jpg" alt="pr-sample23" /></div>
+  <figcaption>
+    <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+    <h3>The World Ended Yesterday</h3>
+    <p>
+
+      You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="snip1527 hover">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample24.jpg" alt="pr-sample24" /></div>
+  <figcaption>
+    <div class="date"><span class="day">17</span><span class="month">Nov</span></div>
+    <h3>An Abstract Post Heading</h3>
+    <p>
+
+      Sometimes the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="snip1527">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample25.jpg" alt="pr-sample25" /></div>
+  <figcaption>
+    <div class="date"><span class="day">01</span><span class="month">Dec</span></div>
+    <h3>Down with this sort of thing</h3>
+    <p>
+
+      I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/loft.jpg" data-lightbox="photos"></a><figure class="snip1527">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample23.jpg" alt="pr-sample23" /></div>
+  <figcaption>
+    <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+    <h3>The World Ended Yesterday</h3>
+    <p>
+
+      You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="snip1527 hover">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample24.jpg" alt="pr-sample24" /></div>
+  <figcaption>
+    <div class="date"><span class="day">17</span><span class="month">Nov</span></div>
+    <h3>An Abstract Post Heading</h3>
+    <p>
+
+      Sometimes the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="snip1527">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample25.jpg" alt="pr-sample25" /></div>
+  <figcaption>
+    <div class="date"><span class="day">01</span><span class="month">Dec</span></div>
+    <h3>Down with this sort of thing</h3>
+    <p>
+
+      I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/building.jpg" data-lightbox="photos"></a><figure class="snip1527">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample23.jpg" alt="pr-sample23" /></div>
+  <figcaption>
+    <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+    <h3>The World Ended Yesterday</h3>
+    <p>
+
+      You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="snip1527 hover">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample24.jpg" alt="pr-sample24" /></div>
+  <figcaption>
+    <div class="date"><span class="day">17</span><span class="month">Nov</span></div>
+    <h3>An Abstract Post Heading</h3>
+    <p>
+
+      Sometimes the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="snip1527">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample25.jpg" alt="pr-sample25" /></div>
+  <figcaption>
+    <div class="date"><span class="day">01</span><span class="month">Dec</span></div>
+    <h3>Down with this sort of thing</h3>
+    <p>
+
+      I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/loft.jpg" data-lightbox="photos"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/desk.jpg" data-lightbox="photos"></a></div>
+            </div>
+        </div>
+    </div>
     <div class="testimonials-clean">
         <div class="container">
             <div class="intro">
