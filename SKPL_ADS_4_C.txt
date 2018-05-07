@@ -339,6 +339,13 @@ Tabel 5 Spesifikasi Proses
 Kode buble          Deskripsi      
 DFD-0-1             Proses ini merupakan gambaran sistem Artist.Co secara keseluruhan. Melibatkan terminator serta data flow yang keluar-masuk kedalam sistem. Buble 0 akan dideskripsikan pada DFD level selanjutnya agar bisa memberikan gambaran secara lebih rinci dan spesifik.
 
+DFD-1-1             Proses ini merupakan proses yang menggambarkan sistem yang dapat menerima input pemesanan berupa pilihan artis dan jadwal, serta sistem dapat mengeluarkan output berupa kesepakatan pemesana dan pembayaran. Sistem juga dapat memberikan output berupa laporan dalam bentuk tabel dan grafik pemesanan. 
+
+DFD-2-1             Proses ini menggambarkan ketika pengguna atau user memilih menu pendaftaran pemesan, dimana user sebagai pemesan dapat mendaftar/registrasi dengan mengisikan data diri pada form registrasi dan hasil pendaftaran tersebut dalam data pemesan.
+
+DFD-2-2             Hampir sama dengan DFD-2-1, artis yang akan bergabung harus melakukan registrasi yang bertujuan untuk memiliki akun dan memastika artis tersebut merupakan artis PAPPRI, setelah registrasi data artis akan tersimpan pada database data artis sendiri.
+
+
 
 3.2.4	Data Store
 Tabel Data Store
@@ -407,7 +414,7 @@ Batasan perancangan yang dipakai dalam pengembangan perangkat lunak Artis.Co ant
 -	Text editor yang digunakan adalah sublime text dan/atau notepad++
 -	Bahasa pemrograman yang digunakan adalah php dan html 
 
-3.6	Keurunutan (traceability)
+3.6	Kerunutan (traceability)
      Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang dapat dirunut model analisisnya. Berikut ini adalah tabel yang berisi traceability dari hasil analisis kebutuhan perangkat lunak yang dibangun.
      
 3.7	Ringkasan Kebutuhan
