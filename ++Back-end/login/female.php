@@ -97,7 +97,7 @@
         </div>
     </div>
     <nav class="navbar navbar-dark navbar-expand fixed-top navigation-clean-search" style="background-size:cover;background-repeat:no-repeat;background-color:rgb(29,109,147);height:70px;color:rgb(255,255,255);">
-        <div class="container-fluid"><a class="navbar-brand" href="index.php" data-aos="fade-left" data-aos-duration="500" style="font-family:Amita, cursive;font-size:40px;">Artist.co</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container-fluid"><a class="navbar-brand" href="userarea.php" data-aos="fade-left" data-aos-duration="500" style="font-family:Amita, cursive;font-size:40px;">Artist.co</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
                 class="collapse navbar-collapse" data-aos="fade-down" data-aos-duration="500" data-aos-offset="30px" data-aos-once="true" id="navcol-1">
                 <ul class="nav navbar-nav">
@@ -111,7 +111,7 @@
                 </ul>
                 <form class="form-inline mr-auto" target="_self">
                     <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" name="search" id="search-field"></div>
-                </form><a class="btn btn-light action-button" role="button" href="signin.php">Sign In</a>
+                </form><a class="btn btn-light action-button" role="button" href="logout.php">Log Out</a>
                 <ul class="nav navbar-nav">
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Pemesanan</a></li>
                 </ul>
@@ -122,7 +122,7 @@
         <footer style="font-family:Amita, cursive;">
             <div class="row">
                 <div class="col-sm-6 col-md-4 footer-navigation">
-                    <h3><a href="index.php">Artist<span>.co</span></a></h3>
+                    <h3><a href="userarea.php">Artist<span>.co</span></a></h3>
                     <p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Blog</a><strong> · </strong><a href="#">Pricing</a><strong> · </strong><a href="#">About</a><strong> · </strong><a href="#">Faq</a><strong> · </strong><a href="#">Contact</a></p>
                     <p
                         class="company-name">Artist.co © 2018</p>
