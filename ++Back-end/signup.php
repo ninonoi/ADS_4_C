@@ -52,7 +52,7 @@
                 <div class="form-group">
                     <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox">I agree to the license terms.</label></div>
                 </div>
-                <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background-color:rgb(29,109,147);">Sign Up</button></div><a href="signin.html" class="already">You already have an account? Login here.</a></form>
+                <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background-color:rgb(29,109,147);">Sign Up</button></div><a href="signin.php" class="already">You already have an account? Login here.</a></form>
         </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
