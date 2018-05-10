@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web-artist</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amita">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/css/Brands.css">
+    <link rel="stylesheet" href="assets/css/Features-Blue.css">
+    <link rel="stylesheet" href="assets/css/Features-Clean.css">
+    <link rel="stylesheet" href="assets/css/Header-Blue-1.css">
+    <link rel="stylesheet" href="assets/css/Header-Blue.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery-1.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
+    <link rel="stylesheet" href="assets/css/Map-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/News-Cards.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Team-Clean.css">
+    <link rel="stylesheet" href="assets/css/Team-Grid.css">
+    <link rel="stylesheet" href="assets/css/Testimonials.css">
+</head>
+
+<body style="background-color:#d5e0f1;">
+    <div>
+        <div class="header-blue" style="font-family:'Allerta Stencil', sans-serif;height:500px;padding-top:60px;padding-bottom:40pc;">
+            <nav class="navbar navbar-dark navbar-expand-lg fixed-top navigation-clean-search" style="background-size:cover;background-repeat:no-repeat;background-color:rgb(29,109,147);height:70px;">
+                <div class="container"><a class="navbar-brand" href="index.html" data-aos="fade-left" data-aos-duration="500" style="font-family:Amita, cursive;font-size:31px;">Artist.co</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div
+                        class="collapse navbar-collapse" data-aos="fade-down" data-aos-duration="400" data-aos-offset="30px" data-aos-once="true" id="navcol-1">
+                        <ul class="nav navbar-nav" style="font-size:12;">
+                            <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" data-aos="fade">ABOUT</a>
+                                <div class="dropdown-menu visible" role="menu"><a class="dropdown-item disabled" role="presentation" href="male.html">ABOUT ARTIST.CO</a>
+                                    <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item disabled" role="presentation" href="female.html">OUR CONTACT</a></div>
+                            </li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-size:12;">ABOUT</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-family:'Allerta Stencil', sans-serif;">BRAND</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="Event.html">EVENT</a></li>
+                            <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" data-aos="fade">ARTIST</a>
+                                <div class="dropdown-menu visible" role="menu"><a class="dropdown-item disabled" role="presentation" href="male.html">MALE</a>
+                                    <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item disabled" role="presentation" href="female.html">FEMALE</a></div>
+                            </li>
+                        </ul>
+                        <form class="form-inline mr-auto" target="_self">
+                            <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" name="search" id="search-field"></div>
+                        </form><a class="btn btn-light action-button" role="button" href="signin.html" data-aos="fade-up" data-aos-duration="500">Sign In</a>
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Pemesanan</a></li>
+                        </ul>
+                </div>
+        </div>
+        </nav>
+        <div class="container hero">
+            <div class="row" style="padding-top:-30px;">
+                <div class="col-12 col-lg-6 col-xl-5 offset-xl-1" style="padding-top:50px;">
+                    <h1 data-bs-hover-animate="wobble">Get your Best Artist for a Great Show!</h1>
+                    <p data-bs-hover-animate="bounce">Management Artist Website Official</p><a class="btn btn-light btn-lg action-button" role="button" href="male.html" data-bs-hover-animate="pulse" style="background-size:auto;">MALE</a><a class="btn btn-light btn-lg action-button" role="button"
+                        href="female.html" data-bs-hover-animate="pulse" style="background-size:auto;margin-left:10px;">FEMALE</a></div>
+                <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder" style="height:300px;width:300px;margin-left:0px;padding-right:200px;">
+                    <div class="iphone-mockup"><img src="assets/img/heading.png" data-bs-hover-animate="tada" class="device" style="width:600px;height:500;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="simple-slider">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(https://placeholdit.imgix.net/~text?txtsize=68&amp;txt=Slideshow+Image&amp;w=1920&amp;h=500);"></div>
+                <div class="swiper-slide" style="background-image:url(https://placeholdit.imgix.net/~text?txtsize=68&amp;txt=Slideshow+Image&amp;w=1920&amp;h=500);"></div>
+                <div class="swiper-slide" style="background-image:url(https://placeholdit.imgix.net/~text?txtsize=68&amp;txt=Slideshow+Image&amp;w=1920&amp;h=500);"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <div></div>
+    <div class="photo-gallery" style="background-color:rgb(213,224,241);">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Lightbox Gallery</h2>
+                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+            </div>
+            <div class="row photos">
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/desk.jpg" data-lightbox="photos"><figure class="snip1527">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample23.jpg" alt="pr-sample23" /></div>
+  <figcaption>
+    <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+    <h3>The World Ended Yesterday</h3>
+    <p>
+
+      You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="snip1527 hover">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample24.jpg" alt="pr-sample24" /></div>
+  <figcaption>
+    <div class="date"><span class="day">17</span><span class="month">Nov</span></div>
+    <h3>An Abstract Post Heading</h3>
+    <p>
+
+      Sometimes the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="snip1527">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample25.jpg" alt="pr-sample25" /></div>
+  <figcaption>
+    <div class="date"><span class="day">01</span><span class="month">Dec</span></div>
+    <h3>Down with this sort of thing</h3>
+    <p>
+
+      I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/building.jpg" data-lightbox="photos"></a><figure class="snip1527">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample23.jpg" alt="pr-sample23" /></div>
+  <figcaption>
+    <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+    <h3>The World Ended Yesterday</h3>
+    <p>
+
+      You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="snip1527 hover">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample24.jpg" alt="pr-sample24" /></div>
+  <figcaption>
+    <div class="date"><span class="day">17</span><span class="month">Nov</span></div>
+    <h3>An Abstract Post Heading</h3>
+    <p>
+
+      Sometimes the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="snip1527">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample25.jpg" alt="pr-sample25" /></div>
+  <figcaption>
+    <div class="date"><span class="day">01</span><span class="month">Dec</span></div>
+    <h3>Down with this sort of thing</h3>
+    <p>
+
+      I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/loft.jpg" data-lightbox="photos"></a><figure class="snip1527">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample23.jpg" alt="pr-sample23" /></div>
+  <figcaption>
+    <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+    <h3>The World Ended Yesterday</h3>
+    <p>
+
+      You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="snip1527 hover">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample24.jpg" alt="pr-sample24" /></div>
+  <figcaption>
+    <div class="date"><span class="day">17</span><span class="month">Nov</span></div>
+    <h3>An Abstract Post Heading</h3>
+    <p>
+
+      Sometimes the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="snip1527">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample25.jpg" alt="pr-sample25" /></div>
+  <figcaption>
+    <div class="date"><span class="day">01</span><span class="month">Dec</span></div>
+    <h3>Down with this sort of thing</h3>
+    <p>
+
+      I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/building.jpg" data-lightbox="photos"></a><figure class="snip1527">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample23.jpg" alt="pr-sample23" /></div>
+  <figcaption>
+    <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+    <h3>The World Ended Yesterday</h3>
+    <p>
+
+      You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="snip1527 hover">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample24.jpg" alt="pr-sample24" /></div>
+  <figcaption>
+    <div class="date"><span class="day">17</span><span class="month">Nov</span></div>
+    <h3>An Abstract Post Heading</h3>
+    <p>
+
+      Sometimes the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="snip1527">
+  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample25.jpg" alt="pr-sample25" /></div>
+  <figcaption>
+    <div class="date"><span class="day">01</span><span class="month">Dec</span></div>
+    <h3>Down with this sort of thing</h3>
+    <p>
+
+      I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway.
+    </p>
+  </figcaption>
+  <a href="#"></a>
+</figure></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/loft.jpg" data-lightbox="photos"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/desk.jpg" data-lightbox="photos"></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="team-boxed" style="background-color:rgb(34,137,161);">
+        <div class="container" style="height:650px;">
+            <div class="intro"></div>
+            <div class="row people" style="padding-top:80px;">
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box" style="background-color:rgb(238,244,247);"><img class="rounded-circle" src="assets/img/ninoon.jpg" data-bs-hover-animate="pulse">
+                        <h3 data-bs-hover-animate="bounce" class="name" style="color:rgb(27,69,130);">Ninon Oktaviani</h3>
+                        <p data-bs-hover-animate="rubberBand" class="title" style="color:rgb(147,136,136);">back-end developer</p>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box" style="background-color:rgb(238,244,247);"><img class="rounded-circle" src="assets/img/2.jpg" data-bs-hover-animate="pulse">
+                        <h3 data-bs-hover-animate="bounce" class="name" style="color:rgb(27,69,130);">Nur Hidayatullah</h3>
+                        <p data-bs-hover-animate="rubberBand" class="title" style="color:rgb(172,166,167);">back-end developer</p>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box" style="background-color:rgb(238,244,247);"><img class="rounded-circle" src="assets/img/ruri.jpg" data-bs-hover-animate="pulse">
+                        <h3 data-bs-hover-animate="bounce" class="name" style="color:rgb(27,69,130);">Ruri Ayyul M</h3>
+                        <p data-bs-hover-animate="rubberBand" class="title" style="color:rgb(152,141,141);">Front-end developer</p>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="team-grid"></div>
+    <div class="testimonials-clean">
+        <div class="container">
+            <div class="intro" style="height:0px;"></div>
+            <div class="row people">
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box">
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
+                    </div>
+                    <div class="author"><img class="rounded-circle" src="assets/img/1.jpg">
+                        <h5 class="name">Deka Nanda Pratama</h5>
+                        <p class="title">S1 PTI UM 2015</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box">
+                        <p class="description">Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id.</p>
+                    </div>
+                    <div class="author"><img class="rounded-circle" src="assets/img/3.jpg">
+                        <h5 class="name">Dicki Dwi Prasetya</h5>
+                        <p class="title">S1 TI UM 2014</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box">
+                        <p class="description">Aliquam varius finibus est, et interdum justo suscipit. Vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in&nbsp;</p>
+                    </div>
+                    <div class="author"><img class="rounded-circle" src="assets/img/2.jpg">
+                        <h5 class="name">Ayu Dwi S</h5>
+                        <p class="title">S2 P. Matematika UM 2016</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="brands"><a href="#"> <img src="assets/img/instacart.png"><img src="assets/img/kickstarter.png"><img src="assets/img/lyft.png"><img src="assets/img/shopify.png"><img src="assets/img/pinterest.png"><img src="assets/img/twitter.png"></a></div>
+    <div>
+        <footer style="font-family:Amita, cursive;">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 footer-navigation">
+                    <h3><a href="index.html">Artist<span>.co</span></a></h3>
+                    <p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Blog</a><strong> · </strong><a href="#">Pricing</a><strong> · </strong><a href="#">About</a><strong> · </strong><a href="#">Faq</a><strong> · </strong><a href="#">Contact</a></p>
+                    <p
+                        class="company-name">Artist.co © 2018</p>
+                </div>
+                <div class="col-sm-6 col-md-4 footer-contacts">
+                    <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                        <p><span class="new-line-span">Jalan Semarang no. 5</span>Malang, Indonesia</p>
+                    </div>
+                    <div><i class="fa fa-phone footer-contacts-icon"></i>
+                        <p class="footer-center-info email text-left"> +62819 4536 8702</p>
+                    </div>
+                    <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                        <p> <a href="#" target="_blank">support@artist.com</a></p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-4 footer-about">
+                    <h4>About Artist.co</h4>
+                    <p> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet. </p>
+                    <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/Simple-Slider1.js"></script>
+</body>
+
+</html>
