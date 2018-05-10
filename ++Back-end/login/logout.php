@@ -8,6 +8,6 @@
 	//unset cookies
 	setcookie("username","",time()-7200);
 
-	header("Location: index.php");
+	header("Location: ../index.php");
 
 ?>

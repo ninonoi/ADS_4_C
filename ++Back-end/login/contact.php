@@ -44,25 +44,25 @@
     <div>
         <div class="header-blue" style="font-family:'Allerta Stencil', sans-serif;height:500px;padding-top:60px;padding-bottom:40pc;">
             <nav class="navbar navbar-dark navbar-expand-lg fixed-top navigation-clean-search" style="background-size:cover;background-repeat:no-repeat;background-color:rgb(29,109,147);height:70px;">
-                <div class="container"><a class="navbar-brand" href="index.html" data-aos="fade-left" data-aos-duration="500" style="font-family:Amita, cursive;font-size:31px;">Artist.co</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="container"><a class="navbar-brand" href="index.php" data-aos="fade-left" data-aos-duration="500" style="font-family:Amita, cursive;font-size:31px;">Artist.co</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                     <div
                         class="collapse navbar-collapse" data-aos="fade-down" data-aos-duration="400" data-aos-offset="30px" data-aos-once="true" id="navcol-1">
                         <ul class="nav navbar-nav" style="font-size:12;">
                             <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" data-aos="fade">ABOUT</a>
-                                <div class="dropdown-menu visible" role="menu"><a class="dropdown-item disabled" role="presentation" href="male.html">ABOUT ARTIST.CO</a>
-                                    <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item disabled" role="presentation" href="female.html">OUR CONTACT</a></div>
+                                <div class="dropdown-menu visible" role="menu"><a class="dropdown-item disabled" role="presentation" href="male.php">ABOUT ARTIST.CO</a>
+                                    <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item disabled" role="presentation" href="female.php">OUR CONTACT</a></div>
                             </li>
                             <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-size:12;">ABOUT</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-family:'Allerta Stencil', sans-serif;">BRAND</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="Event.html">EVENT</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="Event.php">EVENT</a></li>
                             <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" data-aos="fade">ARTIST</a>
-                                <div class="dropdown-menu visible" role="menu"><a class="dropdown-item disabled" role="presentation" href="male.html">MALE</a>
-                                    <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item disabled" role="presentation" href="female.html">FEMALE</a></div>
+                                <div class="dropdown-menu visible" role="menu"><a class="dropdown-item disabled" role="presentation" href="male.php">MALE</a>
+                                    <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item disabled" role="presentation" href="female.php">FEMALE</a></div>
                             </li>
                         </ul>
                         <form class="form-inline mr-auto" target="_self">
                             <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" name="search" id="search-field"></div>
-                        </form><a class="btn btn-light action-button" role="button" href="signin.html" data-aos="fade-up" data-aos-duration="500">Sign In</a>
+                        </form><a class="btn btn-light action-button" role="button" href="signin.php" data-aos="fade-up" data-aos-duration="500">Sign In</a>
                         <ul class="nav navbar-nav">
                             <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Pemesanan</a></li>
                         </ul>
@@ -73,8 +73,8 @@
             <div class="row" style="padding-top:-30px;">
                 <div class="col-12 col-lg-6 col-xl-5 offset-xl-1" style="padding-top:50px;">
                     <h1 data-bs-hover-animate="wobble">Get your Best Artist for a Great Show!</h1>
-                    <p data-bs-hover-animate="bounce">Management Artist Website Official</p><a class="btn btn-light btn-lg action-button" role="button" href="male.html" data-bs-hover-animate="pulse" style="background-size:auto;">MALE</a><a class="btn btn-light btn-lg action-button" role="button"
-                        href="female.html" data-bs-hover-animate="pulse" style="background-size:auto;margin-left:10px;">FEMALE</a></div>
+                    <p data-bs-hover-animate="bounce">Management Artist Website Official</p><a class="btn btn-light btn-lg action-button" role="button" href="male.php" data-bs-hover-animate="pulse" style="background-size:auto;">MALE</a><a class="btn btn-light btn-lg action-button" role="button"
+                        href="female.php" data-bs-hover-animate="pulse" style="background-size:auto;margin-left:10px;">FEMALE</a></div>
                 <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder" style="height:300px;width:300px;margin-left:0px;padding-right:200px;">
                     <div class="iphone-mockup"><img src="assets/img/heading.png" data-bs-hover-animate="tada" class="device" style="width:600px;height:500;"></div>
                 </div>
@@ -322,7 +322,7 @@
         <footer style="font-family:Amita, cursive;">
             <div class="row">
                 <div class="col-sm-6 col-md-4 footer-navigation">
-                    <h3><a href="index.html">Artist<span>.co</span></a></h3>
+                    <h3><a href="index.php">Artist<span>.co</span></a></h3>
                     <p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Blog</a><strong> · </strong><a href="#">Pricing</a><strong> · </strong><a href="#">About</a><strong> · </strong><a href="#">Faq</a><strong> · </strong><a href="#">Contact</a></p>
                     <p
                         class="company-name">Artist.co © 2018</p>

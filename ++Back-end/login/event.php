@@ -109,7 +109,7 @@
         <footer style="font-family:Amita, cursive;">
             <div class="row">
                 <div class="col-sm-6 col-md-4 footer-navigation">
-                    <h3><a href="index.html">Artist<span>.co</span></a></h3>
+                    <h3><a href="index.php">Artist<span>.co</span></a></h3>
                     <p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Blog</a><strong> · </strong><a href="#">Pricing</a><strong> · </strong><a href="#">About</a><strong> · </strong><a href="#">Faq</a><strong> · </strong><a href="#">Contact</a></p>
                     <p
                         class="company-name">Artist.co © 2018</p>
@@ -135,21 +135,21 @@
         </footer>
     </div>
     <nav class="navbar navbar-dark navbar-expand fixed-top navigation-clean-search" style="background-size:cover;background-repeat:no-repeat;background-color:rgb(29,109,147);height:70px;color:rgb(255,255,255);">
-        <div class="container-fluid"><a class="navbar-brand" href="index.html" data-aos="fade-left" data-aos-duration="500" style="font-family:Amita, cursive;font-size:40px;">Artist.co</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container-fluid"><a class="navbar-brand" href="index.php" data-aos="fade-left" data-aos-duration="500" style="font-family:Amita, cursive;font-size:40px;">Artist.co</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
                 class="collapse navbar-collapse" data-aos="fade-down" data-aos-duration="500" data-aos-offset="30px" data-aos-once="true" id="navcol-1">
                 <ul class="nav navbar-nav">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#" data-aos="fade-down" data-aos-duration="500">ABOUT</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#" data-aos="fade-down" data-aos-duration="500" style="font-family:'Allerta Stencil', sans-serif;">BRAND</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="Event.html" data-aos="fade-down" data-aos-duration="500">EVENT</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="Event.php" data-aos="fade-down" data-aos-duration="500">EVENT</a></li>
                     <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" data-aos="fade-down" data-aos-duration="500">ARTIST</a>
-                        <div class="dropdown-menu visible" role="menu"><a class="dropdown-item" role="presentation" href="male.html">MALE</a>
-                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="female.html">FEMALE</a></div>
+                        <div class="dropdown-menu visible" role="menu"><a class="dropdown-item" role="presentation" href="male.php">MALE</a>
+                            <div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" role="presentation" href="female.php">FEMALE</a></div>
                     </li>
                 </ul>
                 <form class="form-inline mr-auto" target="_self">
                     <div class="form-group"><label for="search-field"><i class="fa fa-search" data-aos="fade-down" data-aos-duration="500"></i></label><input class="form-control search-field" type="search" name="search" data-aos="fade-down" data-aos-duration="500" id="search-field"></div>
-                </form><a class="btn btn-light action-button" role="button" href="signin.html">Sign In</a>
+                </form><a class="btn btn-light action-button" role="button" href="signin.php">Sign In</a>
                 <ul class="nav navbar-nav">
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Pemesanan</a></li>
                 </ul>
