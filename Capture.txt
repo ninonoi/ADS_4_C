@@ -3,17 +3,26 @@
         
    1.   Home
         tampilan ini berisikan jenis artis yaitu laki-laki atau perempuan
+        
       ==> https://drive.google.com/open?id=1Dw6wdQ5Bl6D6bnEtmZyetrR_Bb7tB2_E
                         Gambar 1. Home
                      
    2.   Male Artis
         tampilan ini berisikikan artis laki-laki yang sudah terdaftar pada PAPRI
+        
       ==> https://drive.google.com/open?id=1jV_WlT3X6NvBqB8hdmNcrHGS9MYKctfN
                         Gambar 2. Male Artis
                         
    3.   Female Artis
         tampilan ini berisikan artis perempuan yang sudah terdaftar pada PAPRI
+        
       ==> https://drive.google.com/open?id=16WOI7h7qL7MyfwN4tqaUW_ILiwevDc7w
                         Gambar 3. Female Artis
+                        
+   4.   Footer
+        tampilan ini ada di bawah sendiri pada tampilan home dengan berisikan contact person dan alamat
+      
+      ==> https://drive.google.com/open?id=1s6Up7ohqUryaZ4S0pAI3mk9PDTbOJMZ7
+                        Gambar 4. Footer
                         
    
