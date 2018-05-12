@@ -7,8 +7,13 @@
                         Gambar 1. Home
                      
    2.   Male Artis
-        tampilan ini berisikikan artis cowok yang sudah terdaftar pada PAPRI
+        tampilan ini berisikikan artis laki-laki yang sudah terdaftar pada PAPRI
       ==> https://drive.google.com/open?id=1jV_WlT3X6NvBqB8hdmNcrHGS9MYKctfN
                         Gambar 2. Male Artis
                         
-   3. 
+   3.   Female Artis
+        tampilan ini berisikan artis perempuan yang sudah terdaftar pada PAPRI
+      ==> https://drive.google.com/open?id=16WOI7h7qL7MyfwN4tqaUW_ILiwevDc7w
+                        Gambar 3. Female Artis
+                        
+   
