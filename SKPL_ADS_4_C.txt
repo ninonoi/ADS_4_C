@@ -474,23 +474,5 @@ SRS-NF-PR-038	Perangkat lunak menggunakan standar enkripsi HTTPS
 SRS-NF-OUT-039	Semua tanya jawab ataupun tulisan dalam antarmuka disediakan dalam bahasa Indonesia dan bahasa Inggris
 SRS-NF-IN-040	Perangkat Lunak dapat membedakan data artis yang terdaftar pada PAPPRI (Pengurus Persatuan Artis Penyayi dan Pemusik Republik Indonesia)
 
-3.8     Capture
 
-   3.8.1 Home
-        tampilan ini berisikan jenis artis laki-laki atau cowok untuk memilihnya
-        
-     ==>https://drive.google.com/open?id=1Dw6wdQ5Bl6D6bnEtmZyetrR_Bb7tB2_E
-                    Gambar 10. Home
-                    
-   3.8.2 Male Artis
-         tampilan yang berisikan artis cowok yang sudah tercantum pada PAPRI
-         
-     ==>https://drive.google.com/open?id=1jV_WlT3X6NvBqB8hdmNcrHGS9MYKctfN
-                    Gambar 11. Male Artis
-                    
-    3.8.3 Female Artis
-          tampilan yang berisikian artis cewek yang sudah tercantum pada PAPRI
-          
-     ==>https://drive.google.com/open?id=16WOI7h7qL7MyfwN4tqaUW_ILiwevDc7w
-                    Gambar 12. Female Artis
      
