@@ -36,3 +36,12 @@
       ==> https://drive.google.com/open?id=18US5UTB5sslv3yGPQlHo-fSMMQvr7rwM
                         Gambar 5.1 kelanjutan tampilan event
                         
+   6.   Menu Sign in
+        tampilan ini berisikan jika ingin sign akun ke website Artist.co atau terdaftar pada website Artist.Co
+        
+      ==> https://drive.google.com/open?id=1ZPhVUE__FaENIhlu9pMJcYWAVA0WW2Ox
+                        Gambar 6. Menu Sign in
+    
+                        
+    
+                        
