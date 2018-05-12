@@ -54,3 +54,10 @@
       ==> https://drive.google.com/open?id=1MHPkyUfVa3AZ8EclhBlvPeW6tsQ-kRJD
                         Gambar 8. Berhasil Login
                         
+   9.   About Team
+        tampilan ini menampilkan pembuat website jika user ingin bertanya-tanya tentang wesbite bisa menghubungi pembuat website                 tersebut
+        
+      ==> https://drive.google.com/open?id=1vHH03xNimOxBDEVhXtA8uSKHLz7POMBd
+                        Gambar 9. About Team
+      
+        
