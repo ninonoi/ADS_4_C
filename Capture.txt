@@ -25,4 +25,8 @@
       ==> https://drive.google.com/open?id=1s6Up7ohqUryaZ4S0pAI3mk9PDTbOJMZ7
                         Gambar 4. Footer
                         
-   
+   5.   Event
+        tampilan ini berisikan jika ada sebuah event artis yang sudah terdaftar pada PAPRI
+        
+      ==> https://drive.google.com/open?id=1p8hoY16PZupgKVH3xvrIfaht-mhNMJtI
+                        Gambar 5. Event
