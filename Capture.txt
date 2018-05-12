@@ -1,0 +1,14 @@
+        CAPTURE
+        Pada bagian menampilkan tampilan website Artist.Co agar pengguna mengerti cara penggunaannya
+        
+   1.   Home
+        tampilan ini berisikan jenis artis yaitu laki-laki atau perempuan
+      ==> https://drive.google.com/open?id=1Dw6wdQ5Bl6D6bnEtmZyetrR_Bb7tB2_E
+                        Gambar 1. Home
+                     
+   2.   Male Artis
+        tampilan ini berisikikan artis cowok yang sudah terdaftar pada PAPRI
+      ==> https://drive.google.com/open?id=1jV_WlT3X6NvBqB8hdmNcrHGS9MYKctfN
+                        Gambar 2. Male Artis
+                        
+   3. 
