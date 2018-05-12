@@ -48,5 +48,9 @@
       ==> https://drive.google.com/open?id=1OmMVVUgwL5hfTtGmrbu1hxT0G-JR0KIE
                         Gambar 7. Menu Sign Up
       
-    
+   8.   Berhasil Login
+        tampilan ini menampilkan hasil login dari seorang user yang sudah terdaftar pada website Artist.Co
+        
+      ==> https://drive.google.com/open?id=1MHPkyUfVa3AZ8EclhBlvPeW6tsQ-kRJD
+                        Gambar 8. Berhasil Login
                         
