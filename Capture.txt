@@ -42,6 +42,11 @@
       ==> https://drive.google.com/open?id=1ZPhVUE__FaENIhlu9pMJcYWAVA0WW2Ox
                         Gambar 6. Menu Sign in
     
-                        
+   7.   Menu Sign Up
+        tampilan ini berisikan jika seorang user belum terdaftar maka user tersebut terlebih dahulu mendaftarkan diri
+        
+      ==> https://drive.google.com/open?id=1OmMVVUgwL5hfTtGmrbu1hxT0G-JR0KIE
+                        Gambar 7. Menu Sign Up
+      
     
                         
